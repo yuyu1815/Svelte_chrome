@@ -18,7 +18,7 @@
             <UserCircleSolid size="md" />
             ホーム
         </div>
-        <p class="text-sm text-gray-500 dark:text-gray-400">
+        <p class="dark:text-gray-400 text-sm text-gray-500">
             <Home />
         </p>
     </TabItem>
@@ -27,7 +27,7 @@
             <AdjustmentsVerticalSolid size="md" />
             設定
         </div>
-        <p class="text-sm text-gray-500 dark:text-gray-400">
+        <p class="dark:text-gray-400 text-sm text-gray-500">
             <Setting />
         </p>
     </TabItem>
@@ -36,7 +36,7 @@
             <BugSolid size="md" />
             報告
         </div>
-        <p class="text-sm text-gray-500 dark:text-gray-400">
+        <p class="dark:text-gray-400 text-sm text-gray-500">
             <Bug_report />
         </p>
     </TabItem>
