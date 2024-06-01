@@ -1,7 +1,7 @@
 <script lang="ts">
     import { Tabs } from 'flowbite-svelte' // インポートの修正: Toggleは削除
     // UI 統括
-    import Create_Button_Group from './Create_Button_Group.svelte'
+    import Create_Button_Group from './UI_Template/Create_Button_Group.svelte'
 </script>
 
 <Tabs tabStyle="underline">

@@ -19,9 +19,10 @@ export default defineManifest(env => ({
             : package_json.name,
     description: package_json.description,
     // up to four numbers separated by dots
-    version: `${major}.${minor}.${patch}.${label}`,
+    version: `${major}.${minor}.${patch}.${label || 0}`,
+    permissions: ['storage'],
     // semver is OK in "version_name"
-    version_name: version,
+    version_name: package_json.version,
     action: {
         default_popup: 'src/pages/popup/index.html',
         default_icon: {

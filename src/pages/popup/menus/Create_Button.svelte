@@ -19,7 +19,6 @@
         input_explanation = ''
 </script>
 
-s
 <Toggle
     size="large"
     on:click={() => toggleButton(button_name)}
