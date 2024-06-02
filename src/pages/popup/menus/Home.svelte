@@ -1,22 +1,11 @@
 <script lang="ts">
-    // ボタンの各状態
-    import Create_Button from './UI_Template/Create_Button.svelte'
-    import Save_Button from './UI_Template/Create_Button_Save.svelte'
+    import { Alert } from 'flowbite-svelte'
 </script>
 
-<div>
-    <Create_Button
-        input_name="拡張タグ追加"
-        button_name="button1"
-        input_explanation="拡張タグ追加" />
-    <Create_Button
-        input_name="旧名に変更"
-        button_name="button2"
-        input_explanation="変更される前の名前に戻ります" />
-    <Create_Button
-        input_name="詳細検索"
-        button_name="button3"
-        input_explanation="詳細検索画面でのEXタグのを表示するかどうか" />
-    <Save_Button />
+<div class="p-8">
+    <h1>Home</h1>
+    <Alert>
+        <span class="font-medium">注意</span>
+        現在制作中です
+    </Alert>
 </div>
-

@@ -13,7 +13,7 @@
     // ローカルストレージから状態を取得する非同期関数
     async function loadButtonsState() {
         const result = await chrome.storage.local.get('buttonsState')
-        //ポップアップ
+        // ポップアップ
         alert(result.buttonsState)
         if (result.buttonsState) {
             buttonsState = result.buttonsState
@@ -37,10 +37,12 @@
     export let input_explanation = ''
 </script>
 
-<Toggle
-    size="large"
-    on:click={() => toggleButton(button_name)}
-    checked={buttonsState[button_name]}>
-    <Question tooltipText={input_explanation} />{input_name}
-</Toggle>
-<br />
+<div>
+    <Toggle
+        size="large"
+        on:click={() => toggleButton(button_name)}
+        checked={buttonsState[button_name]}>
+        <Question tooltipText={input_explanation} />{input_name}
+    </Toggle>
+    <br />
+</div>

@@ -15,4 +15,3 @@
     <Button on:click={btn1}>RESET</Button>
     <Button on:click={btn2}>SAVE</Button>
 </div>
-
